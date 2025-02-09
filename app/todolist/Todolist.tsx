@@ -1,7 +1,6 @@
 "use client";
 
 import React, { useState, useEffect } from 'react';
-import Head from 'next/head';
 
 const TodoItem = (props: { task: string; completed: boolean; toggleCompletion: () => void; removeTask: () => void; }) => {
     return (
